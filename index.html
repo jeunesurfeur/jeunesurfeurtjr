@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="i.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body background="banner.png"> 
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Top 10 university in the world by vogue magasin </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>COURSES WE OFFER</h1>
+        <p>We provide a wide range of programs designed to prepare students for success in their chosen fields. Our courses emphasize academic excellence, practical experience, and innovative learning opportunities.</p>
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate Degrees</h3>
+                <p>Our undergraduate programs offer a solid foundation in various disciplines, enabling students to develop critical thinking, problem-solving, and professional skills for their future careers.</p>
+            </div>
+        
+            <div class="course-col">
+                <h3>Intermediate Studies</h3>
+                <p>Our intermediate courses are tailored to help students bridge the gap between high school and university education, focusing on essential skills and foundational knowledge.</p>
+            </div>
+        
+            <div class="course-col">
+                <h3>Postgraduate Studies</h3>
+                <p>Pursue advanced knowledge and specialize in your field through our diverse postgraduate programs, designed for students aiming to excel in research, leadership, or professional practice.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="global institutes">
+        <h1>Our Global Institutes</h1>
+        <p>With campuses in major cities around the world, we are committed to providing a global perspective on education and fostering a diverse learning environment.</p>
+    
+        <div class="row">
+            <div class="institutes-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+    
+            <div class="institutes-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+    
+            <div class="institutes-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We pride ourselves on offering state-of-the-art facilities that enhance the learning experience and promote personal growth.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World-Class Library</h3>
+                <p>Our library houses an extensive collection of academic resources, offering students a quiet and inspiring environment for research and study.</p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Expansive Sports Facilities</h3>
+                <p>From our basketball courts to our athletic fields, we provide top-notch facilities for students to stay active and pursue their athletic passions.</p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Nutritious and Delicious Dining</h3>
+                <p>Our cafeteria offers a variety of healthy and delicious meals, catering to diverse dietary needs and preferences.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h1>Enroll in Our Online Courses <br>From Anywhere in the World</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a leading institution dedicated to empowering students through transformative education. Our mission is to create a global community of learners who excel in their fields and make a positive impact on the world.</p>
+    
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Clovis</p>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks=document.getElementById(navLinks);
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
